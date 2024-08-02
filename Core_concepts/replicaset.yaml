@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: ReplicationController
+kind: ReplicaSet
 metadata:
-  name: myapp-rc
+  name: myapp-rs
   labels:
     app: myapp
     type: frontend
